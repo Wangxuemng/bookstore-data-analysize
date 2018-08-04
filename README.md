@@ -1,7 +1,4 @@
-CS540
-Final Project Report
-Online Bookstore Data Integration and Analysis
-Team member: Hengrui Huang Xingyu Fan Xuemeng Wang
+
 
 1. Introduction
 With the development of the network, more and more shopping platforms appear in

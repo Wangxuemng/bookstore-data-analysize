@@ -12,23 +12,18 @@ Figure 2. Date Set
 Figure 2 shows the contents of some of our data. Then we combine these three data into one database and add IDs to all the data. ID is the key when we do data selection later. We then filter and integrate this database because there must be the same books on all three sites, but these books will have different prices, ratings, and publication dates. So we will choose the best book to integrate them into a new database. Figure 3 shows our new database. It is somewhat different from the database, and there are few categories, such as URLs. Then we perform SQL statement operations on this new database, classify them into different categories or classify them according to different requirements. This gave us the results we needed.
  
  Figure 3. New Data Set
-3. The DATA Processing
+The DATA Processing
 First, we need to do data processing. For the original data that we catched from internet. As figure 4 shows there are so many types. And some of them can be used directly like book name and authors. While some of them can not be used directly like publish time and price. So, on our code, the first work is to deal with this problems. We capture the time and price. Then we divided it into different part. We choose the number that we need and change it from string type to float. Then these data can be used in our future work.
-Figure4. original data set
- 
+
 Also, we found that there are some information absent so that it would cause bug when we tried to make a new database. So the second work it use code to add mark to these absent information. For example, if the price is none, we add zero on them so that we can find which book has no price.
- Figure 5. books’ name data
 And when we deal with the data. Next work is find all books data which have the same book name and authors’ name. Because like the figure 5shows we found that there are so many books which are similar while the publish time and price are different. So we use c++ to process the data. We put all books with same name to a table and there is another table to save the books which have already appeared so that we have no same books appeared so many times. And the table save all books for the three bookstores.
-Figure 6. Example of same books
- 
+
 Next work is choosing the best books from the same book table. And the way to choose the best book is by calculating the weight. Because these books’ price, rate and publish time are different. So, we calculate the weight of price, rate and time and then we get a total weight. And highest weight will be chosen to our final dataset.
 Figuer 7. The code to calculate the weight
 After putting the books data into a new database. Our integration work are finished. We reduce the number of books from 30000 to 25000. And the disappeared book are the books which have more than one version and have less weight.
-4. UI Design
+UI Design
 We first designed a simple UI to better show our data and the connection to the entire project. Figure 4 shows our UI, each button is connected to a different database, and our website address is user-friendly. Because the focus of this time is not on the design of the UI, we have not added too much functionality. We will further improve our UI in the future and integrate it with our database more perfectly. In order to design a perfect book selection system.
 Also, there is some code that show how we design the UI. For more information, here is a link: https://media.oregonstate.edu/media/t/1_0nrna4ar shows our entire operation.
- 
-  Figure 8. UI
 5. SQL
 We use PhpMyadmin as our database. After, we get our final data, we import the
 final data and original data into cs540_huanghen PhpMyadmin to search our results. Our main operation with structured query language can separate into four parts. 1. Update Data, 2. Separate Data, 3. Specify Data search, 4. Data connect.

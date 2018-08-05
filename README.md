@@ -1,9 +1,9 @@
 
 
-1. Introduction
+Introduction
 With the development of the network, more and more shopping platforms appear in
 front of us, and how to find high-quality and inexpensive items quickly becomes a problem that people need to face. The project we are working on is to help people find the books they need quickly and easily. In this project, our goal is to use our screening and integration to allow people to compare and select the books they need in a variety of online stores that are easy and fast. The entire project can be divided into three parts, the front-end UI of the project, the code implementation of the project, and the SQL statement to filter the data.
-2. DATA
+DATA
 Figure 1. Flow Chart
 Our flow chart is shown in Figure 1. First, we have selected data from three websites. The three sites are Amazon, Book Depository, and BAM (Book A Million).
  
@@ -46,7 +46,6 @@ Taking the top 100 most of expensive books as an example, we can find some speci
  SELECT * FROM `final
   ORDER BY final.price DESC LIMIT 0,100
  
-Figure 10. Top 100 of most expensive books 5.4 Data connect.
 Because we want users to get the details of the book after searching the book. We used the key value id to connect the original data and final data to show the web link for each book. In the beginning, we tried to use name as the key value, but we find there are some books have the same name. So, we add the ID that is not exist at the original data. Figure11 is the connected data.
 Figure 11. the connected data 6. Conclusion
 Through this project, we not only reviewed the contents of this semester, but also deepened the practical operation ability of the database. However, our project is still inadequate and needs to be improved. For example, how to better obtain data, make empty data disappear and so on. We hope that in the following study, we can further study the database knowledge, so that our professional competence can be improved better, so as to solve the problems that cannot be solved today.

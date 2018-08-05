@@ -1,9 +1,9 @@
 
 
-Introduction
+Introduction.
 With the development of the network, more and more shopping platforms appear in
 front of us, and how to find high-quality and inexpensive items quickly becomes a problem that people need to face. The project we are working on is to help people find the books they need quickly and easily. In this project, our goal is to use our screening and integration to allow people to compare and select the books they need in a variety of online stores that are easy and fast. The entire project can be divided into three parts, the front-end UI of the project, the code implementation of the project, and the SQL statement to filter the data.
-DATA
+DATA.
 Figure 1. Flow Chart
 Our flow chart is shown in Figure 1. First, we have selected data from three websites. The three sites are Amazon, Book Depository, and BAM (Book A Million).
  

@@ -1,9 +1,11 @@
 
 
-Introduction \n
+Introduction 
+
 With the development of the network, more and more shopping platforms appear in
 front of us, and how to find high-quality and inexpensive items quickly becomes a problem that people need to face. The project we are working on is to help people find the books they need quickly and easily. In this project, our goal is to use our screening and integration to allow people to compare and select the books they need in a variety of online stores that are easy and fast. The entire project can be divided into three parts, the front-end UI of the project, the code implementation of the project, and the SQL statement to filter the data.
-DATA.
+DATA
+
 Figure 1. Flow Chart
 Our flow chart is shown in Figure 1. First, we have selected data from three websites. The three sites are Amazon, Book Depository, and BAM (Book A Million).
  
@@ -24,7 +26,9 @@ After putting the books data into a new database. Our integration work are finis
 UI Design
 We first designed a simple UI to better show our data and the connection to the entire project. Figure 4 shows our UI, each button is connected to a different database, and our website address is user-friendly. Because the focus of this time is not on the design of the UI, we have not added too much functionality. We will further improve our UI in the future and integrate it with our database more perfectly. In order to design a perfect book selection system.
 Also, there is some code that show how we design the UI. For more information, here is a link: https://media.oregonstate.edu/media/t/1_0nrna4ar shows our entire operation.
-5. SQL
+
+SQL
+
 We use PhpMyadmin as our database. After, we get our final data, we import the
 final data and original data into cs540_huanghen PhpMyadmin to search our results. Our main operation with structured query language can separate into four parts. 1. Update Data, 2. Separate Data, 3. Specify Data search, 4. Data connect.
 5.1 Update Data
